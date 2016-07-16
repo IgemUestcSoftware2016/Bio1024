@@ -1,0 +1,44 @@
+<style type="text/css">
+path,
+circle {
+    stroke: #000000;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none
+}
+</style>
+<svg xmlns="http://www.w3.org/2000/svg" width="999" height="999">
+    <defs>
+        <g id="move">
+            <polyline fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="56,39 63,32   56,25 " />
+            <polyline fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="8,25 1,32 8,39   " />
+            <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="1" y1="32" x2="27" y2="32" />
+            <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="37" y1="32" x2="63" y2="32" />
+            <polyline fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="39,8 32,1 25,8   " />
+            <polyline fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="25,56 32,63   39,56 " />
+            <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="32" y1="63" x2="32" y2="37" />
+            <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="32" y1="27" x2="32" y2="1" />
+        </g>
+        <g id="cds">
+            <path d="M 9 65 L 27 65 L 42 50 L 27 35 L 9 35 L 9 65 Z" />
+        </g>
+        <g id="resize">
+            <path d="M 25 50 L 25 46 " />
+            <path d="M 25 41 L 25 37 " />
+            <circle cx="25" cy="25" r="7" />
+        </g>
+        <g id="ribosome">
+            <path xmlns="http://www.w3.org/2000/svg" d="M 12 50 L 38 50 L 38 45 C 38 35 32 30 25 30 C 18 30 12 35 12 45  Z" />
+        </g>
+        <g id="insulator">
+            <path d="M 17 58 L 33 58 L 33 42 L 17 42 L 17 58 Z" />
+            <path d="M 10 65 L 40 65 L 40 35 L 10 35 L 10 65 Z" />
+        </g>
+        <g id="operator">
+            <path d="M 15 60 L 35 60 L 35 40 L 15 40 L 15 60 Z" />
+        </g>
+    </defs>
+    <use xlink:href="#move" x="300" y="300" />
+    <use xlink:href="#resize" x="60" y="50" />
+</svg>

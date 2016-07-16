@@ -1,0 +1,18 @@
+.mySvg{
+	/*background-color: #e379ff;*/
+	width: 100%;
+	background:url('https://www.circuitlab.com/assets/images/gridcell.png');
+	background-repeat: repeat;
+}
+/*.clickPos{
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	border-radius: 10px;
+	position: absolute;
+	z-index: 999;
+}*/
+/*.svg{
+	
+}
+*/
